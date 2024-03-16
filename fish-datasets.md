@@ -2,13 +2,17 @@
 
 ~1k images of fish/squid w/bounding boxes
   
-* 147 MB, downloadable via https from GitHub (<a href="https://github.com/Microsoft/Project_Natick_Analysis/releases/tag/annotated_data">download link</a>)
-* Metadata in Pascal VOC format
-* Categories: Fish, Squid
+Simon, K. (2018). Project Natick - Microsoft's Self-sufficient Underwater Datacenters. IndraStra Global, 4(6), 1-4.
+https://nbn-resolving.org/urn:nbn:de:0168-ssoar-57615-2
+
+* Data downloadable via via https from GitHub (<a href="https://github.com/Microsoft/Project_Natick_Analysis/releases/tag/annotated_data">download link</a>)
+* Metadata raw format: Pascal VOC
+* Categories/species: Fish, Squid
 * Vehicle type: Fixed Camera on Structure
 * Image information: 1118 RGB images (~5% images have FN annotations)
 * Annotation information: 998  Bounding Box
-* Code to render sample annotated image: <a href="./data_preview/visualise_natick.ipynb">visualise_natick</a>
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_natick">visualise_natick</a>
   
   
 <img src="./data_preview/natick_sample_image.png" width=700>
@@ -20,13 +24,14 @@
   
 Dikow, Rebecca (2023). Data from: Application of a Deep Learning Image Classifier for Identification of Amazonian Fishes. Office of the Chief Information Officer. Collection. https://doi.org/10.25573/data.c.5761097.v1
 
-* 315 MB, downloadable via https from Smithsonian (<a href="https://smithsonian.figshare.com/collections/Data_from_Application_of_a_Deep_Learning_Image_Classifier_for_Identification_of_Amazonian_Fishes/5761097">download link</a>)
-* Metadata in csv format
-* Categories: Fish Genus
+* Data downloadable via via https from Smithsonian (<a href="https://smithsonian.figshare.com/collections/Data_from_Application_of_a_Deep_Learning_Image_Classifier_for_Identification_of_Amazonian_Fishes/5761097">download link</a>)
+* Metadata raw format: csv
+* Categories/species: Fish Genus
 * Vehicle type: Out-of-the-water Picture
 * Image information: 3068 RGB images
 * Annotation information: 3068  Masked image classification
-* Code to render sample annotated image: <a href="./data_preview/visualise_amazonian_fish.ipynb">visualise_amazon_fish</a>
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_amazon_fish">visualise_amazon_fish</a>
   
   
 <img src="./data_preview/amazon_fish_sample_image.png" width=700>
@@ -36,13 +41,17 @@ Dikow, Rebecca (2023). Data from: Application of a Deep Learning Image Classifie
 
 ~1k images of fish w/bounding boxes
   
-* 31 MB, downloadable via https from Roboflow (<a href="https://public.roboflow.com/object-detection/fish/1">download link</a>)
-* Metadata in To choose format
-* Categories: 26 Fish types (i.e. Shark, Tuna)
+Solawetz, J. (2023, February 21). Fish object detection dataset. Roboflow. https://public.roboflow.com/object-detection/fish 
+
+* Data downloadable via via https from Roboflow (<a href="https://public.roboflow.com/object-detection/fish/1">download link</a>)
+* License: CC0 1.0 DEED
+* Metadata raw format: To choose
+* Categories/species: 26 Fish types (i.e. Shark, Tuna)
 * Vehicle type: Underwater Pictures
 * Image information: 1350 RGB images (the taxonomy is often inaccurate)
 * Annotation information: 3142  Bounding Box
-* Code to render sample annotated image: <a href="./data_preview/visualise_roboflow_fish.ipynb">visualise_roboflow_fish</a>
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_roboflow_fish">visualise_roboflow_fish</a>
   
   
 <img src="./data_preview/roboflow_fish_sample_image.png" width=700>
@@ -54,13 +63,14 @@ Dikow, Rebecca (2023). Data from: Application of a Deep Learning Image Classifie
   
 Kay, J., & Merrifield, M. (2021). The Fishnet Open Images Database: A Dataset for Fish Detection and Fine-Grained Categorization in Fisheries. Retrieved from https://arxiv.org/abs/2106.09178
 
-* 36.41 GB, downloadable via https from The Nature Conservancy (<a href="https://www.fishnet.ai/">download link</a>)
-* Metadata in csv format
-* Categories: 34 Fish Types and Humans
+* Data downloadable via via https from The Nature Conservancy (<a href="https://www.fishnet.ai/">download link</a>)
+* Metadata raw format: csv
+* Categories/species: 34 Fish Types and Humans
 * Vehicle type: On-deck cameras
 * Image information: 143818 RGB images
 * Annotation information: 549209  Bounding Box
-* Code to render sample annotated image: <a href="./data_preview/visualise_fishnet.ipynb">visualise_fishnet</a>
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_fishnet">visualise_fishnet</a>
   
   
 <img src="./data_preview/fishnet_sample_image.png" width=700>
@@ -70,29 +80,57 @@ Kay, J., & Merrifield, M. (2021). The Fishnet Open Images Database: A Dataset fo
 
 800 images of fish in 12 classes
   
-* 130 MB, downloadable via https from Jena University (<a href="https://pub.inf-cv.uni-jena.de/pdf/Jaeger15:CFD">download link</a>)
-* Metadata in XML format
-* Categories: 12 Fish Species
+Jäger, Jonas, Simon, Marcel, Denzler, Joachim, Wolff, Viviane, Fricke-Neuderth, Klaus, Kruschel, Claudia, (2015), 6.1, 6.7, Croatian Fish Dataset: Fine-grained classification of fish species in their natural habitat, https://doi.org/10.5244/C.29.MVAB.6
+
+
+* Data downloadable via via https from Jena University (<a href="https://pub.inf-cv.uni-jena.de/pdf/Jaeger15:CFD">download link</a>)
+* License: CDLA-permissive 1.0
+* Metadata raw format: XML
+* Categories/species: 12 Fish Species
 * Vehicle type: BRUVS
 * Image information: 794 RGB images
 * Annotation information: 794  Cropped image classification
-* Code to render sample annotated image: <a href="./data_preview/visualise_croatian_fish.ipynb">visualise_croatian_fish</a>
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_croatian_fish">visualise_croatian_fish</a>
   
   
 <img src="./data_preview/croatian_fish_sample_image.png" width=700>
+  
+  
+### Deep Fish
+
+~40k images with a mix of classification, segmentation, and counting labels
+  
+Saleh, A., Laradji, I. H., Konovalov, D. A., Bradley, M., Vazquez, D., & Sheaves, M. (2020). A realistic fish-habitat dataset to evaluate algorithms for underwater visual analysis. Scientific Reports, 10(1), 14671. https://doi.org/10.1038/s41598-020-71639-x
+
+* Data downloadable via via https from Queensland University (<a href="https://alzayats.github.io/DeepFish/">download link</a>)
+* License: CC BY 4.0 DEED (https://research.jcu.edu.au/data/published/48fcdde6576ee929325b01fca4207914/)
+* Metadata raw format:  N/A
+* Categories/species:  N/A
+* Vehicle type:  N/A
+* Image information: nan nan images
+* Annotation information:  nan
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-71639-x/MediaObjects/41598_2020_71639_Fig1_HTML.jpg?as=webp" width=700>
   
   
 ### The Brackish Dataset
 
 ~90 videos with bounding boxes on fish
   
-* 181 MB, downloadable via browser from Kaggle (<a href="https://www.kaggle.com/datasets/aalborguniversity/brackish-dataset">download link</a>)
-* Metadata in AAU, COCO, YOLO format
-* Categories: Fish, Small Fish, Crab, Shrimp, Jellyfish, Starfish
+Detection of Marine Animals in a New Underwater Dataset with Varying Visibility, Pedersen, Malte and Haurum, Joakim Bruslund and Gade, Rikke and Moeslund, Thomas B. and Madsen, Niels, June, 2019
+
+* Data downloadable via via browser from Kaggle (<a href="https://www.kaggle.com/datasets/aalborguniversity/brackish-dataset">download link</a>)
+* License: CC BY-SA 4.0
+* Metadata raw format: AAU, COCO, YOLO
+* Categories/species: Fish, Small Fish, Crab, Shrimp, Jellyfish, Starfish
 * Vehicle type: Underwater Cameras in Brackish water
 * Image information: 12444 RGB images (only the first 200 frames in 2019-03-19_17-07-53to2019-03-19_17-08-34_1.avi and first 100 frames in 2019-03-19_18-01-56to2019-03-19_18-02-13_1.avi are annotated. All other videos are fully annotated.)
 * Annotation information: 35565  Bounding Box 
-* Code to render sample annotated image: <a href="./data_preview/visualise_brackish_dataset.ipynb">visualise_brackish_dataset</a>
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_brackish_dataset">visualise_brackish_dataset</a>
   
   
 <img src="./data_preview/brackish_dataset_sample_image.png" width=700>
@@ -104,15 +142,326 @@ Bboxed images of pelagic fish and associated segmentations
   
 Vaneeda Allken, Shale Rosen (2020) Deep Vision fish dataset https://doi.org/10.21335/NMDC-551736490
 
-* 367 MB, downloadable via https from Norvegian Marine Data Centre (<a href="https://metadata.nmdc.no/metadata-api/landingpage/01d102345aef4639f063a13ea20cd3f3">download link</a>)
-* Metadata in csv format
-* Categories: Economically important pelagic species
+* Data downloadable via via https from Norvegian Marine Data Centre (<a href="https://metadata.nmdc.no/metadata-api/landingpage/01d102345aef4639f063a13ea20cd3f3">download link</a>)
+* License: CC BY 4.0
+* Metadata raw format: csv
+* Categories/species: Economically important pelagic species
 * Vehicle type: Picture from Fish Tank
 * Image information: 1875 RGB images
 * Annotation information: 4834  Bounding Box, Segmentation
-* Code to render sample annotated image: <a href="./data_preview/visualise_deep_vision.ipynb">visualise_deep_vision</a>
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_deep_vision">visualise_deep_vision</a>
   
   
 <img src="./data_preview/deep_vision_sample_image.png" width=700>
   
   
+### BrackishMOT
+
+98 videos of fish with tracking boxes (i.e., boxes with stable frame-to-frame IDs)
+  
+Pedersen_2023,Pedersen, Malte and Lehotský, Daniel and Nikolov, Ivan and Moeslund, Thomas B,10.48550/ARXIV.2302.10645,BrackishMOT: The Brackish Multi-Object Tracking Dataset,arXiv,2023
+
+* Data downloadable via  from Visual Analysis and Perception lab (<a href="https://www.kaggle.com/datasets/maltepedersen/brackishmot">download link</a>)
+* License: CC BY-NC-SA 4.0
+* Metadata raw format:  N/A
+* Categories/species: Small fish
+* Vehicle type: Underwater Cameras in Brackish water
+* Image information: nan nan images
+* Annotation information:  nan
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="https://lila.science/wp-content/uploads/2017/03/brackish-150.jpg" width=700>
+  
+  
+### Visual Marine Animal Tracking
+
+32 video sequences with bounding boxes on a variety of species
+  
+Cai, L., McGuire, N.E., Hanlon, R. et al. Semi-supervised Visual Tracking of Marine Animals Using Autonomous Underwater Vehicles. Int J Comput Vis 131, 1406–1427 (2023). https://doi.org/10.1007/s11263-023-01762-5
+
+* Data downloadable via  from springer (<a href="https://link.springer.com/article/10.1007/s11263-023-01762-5#article-info">download link</a>)
+* License: CC BY 4.0 DEED
+* Metadata raw format:  N/A
+* Categories/species: marine organisms
+* Vehicle type: Autonomous Underwater Vehicles
+* Image information: nan nan images
+* Annotation information:  nan
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="http://lila.science/wp-content/uploads/2017/03/behavior-fish-150.png" width=700>
+  
+  
+### OzFish
+
+80k cropped fish images with 45k bounding boxes
+  
+Australian Institute of Marine Science (AIMS), University of Western Australia (UWA) and Curtin University. (2019). OzFish Dataset - Machine learning dataset for Baited Remote Underwater Video Stations . https://doi.org/10.25845/5e28f062c5097, accessed 28-Feb-2024.
+
+* Data downloadable via  from GitHub (<a href="https://github.com/open-AIMS/ozfish?tab=readme-ov-file">download link</a>)
+* License: CC BY 3.0 DEED
+* Metadata raw format:  N/A
+* Categories/species:  N/A
+* Vehicle type: BRUVS
+* Image information: Over 3000 nan images
+* Annotation information:  bounding box
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="https://camo.githubusercontent.com/339ce4034b581a4276aefd7e1294a6977b4caa2d942d8cbcb5b7d5ae27e0faeb/68747470733a2f2f6f70656e2d41494d532e6769746875622e696f2f6f7a666973682f6669736863726f70732e706e673f7261773d74727565" width=700>
+  
+  
+### F4K Detection and Tracking
+
+17 10-minute videos with tracking points
+  
+I. Kavasidis, S. Palazzo, R. Di Salvo, D. Giordano, C. Spampinato, An innovative web-based collaborative platform for video annotation, Multimedia Tools and Applications, vol. 70, pp. 413-432, 2013.
+
+I. Kavasidis, S. Palazzo, R. Di Salvo, D. Giordano, C. Spampinato, A semi-automatic tool for detection and tracking ground truth generation in videos, Proceedings of the 1st International Workshop on Visual Interfaces for Ground Truth Collection in Computer Vision Applications, pp. 6:1-6:5, 2012.
+
+* Data downloadable via  from Github (<a href="https://github.com/perceivelab/f4k-detection-and-tracking">download link</a>)
+* Metadata raw format: XML, FLV
+* Categories/species:  N/A
+* Vehicle type:  N/A
+* Image information: nan nan images
+* Annotation information:  nan
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="https://raw.githubusercontent.com/JianmengYu/f4k/master/dissertation/graph/5-6.png" width=700>
+  
+  
+### FishCLEF-2015 
+
+14k boxes on fish in 20k images
+  
+Joly A., Goeau H., Glotin H., Spampinato C., Bonnet P., Vellinga W.-P., Planquè R., Rauber A., Palazzo S., Fisher R., and others}, LifeCLEF 2015: multimedia life species identification challenges, International Conference of the Cross-Language Evaluation Forum for European Languages, pp. 462-483, Springer, 2015.
+
+* Data downloadable via via https from Github (<a href="https://github.com/perceivelab/FishCLEF-2015">download link</a>)
+* Metadata raw format: XML
+* Categories/species: marine ray-finned fish 
+* Vehicle type:  N/A
+* Image information: 20000 nan images
+* Annotation information: 14000  Manually, Bounding Box
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="http://lila.science/wp-content/uploads/2017/03/fishclef_2015-150.png" width=700>
+  
+  
+### VIAME FishTrack
+
+Several thousand BRUV images with bounding boxes on fish and bait
+  
+* Data downloadable via  from Viame (<a href="https://viame.kitware.com/#/collection/62afcb66dddafb68c8442126">download link</a>)
+* Metadata raw format:  N/A
+* Categories/species:  N/A
+* Vehicle type: BRUV
+* Image information: Several Thousands nan images
+* Annotation information:  Bounding Box
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="http://lila.science/wp-content/uploads/2017/03/fishtrack-boxes-150-1.png" width=700>
+  
+  
+### Brackish Underwater Dataset
+
+12.5k boxes on fish and other species in 15k images
+  
+Pedersen, M., Haurum, J. B., Gade, R., Moeslund, T. B., & Madsen, N. (2019). Detection of Marine Animals in a New Underwater Dataset with Varying Visibility. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2019.
+
+* Data downloadable via  from Roboflow (<a href="https://public.roboflow.com/object-detection/brackish-underwater/">download link</a>)
+* License: CC BY 4.0 DEED 
+* Metadata raw format: YOLOv2, YOLOv3 CNNs
+* Categories/species: Marine Animals
+* Vehicle type: Underwater Cameras
+* Image information: 14674 nan images (12444 of which contain objects of interest with bounding box annotations)
+* Annotation information:  Bounding Box
+* Typical animal size in pixels: 416 × 416
+  
+  
+<img src="https://i.imgur.com/3dtuNhv.png" width=700>
+  
+  
+### WildFish
+
+54,459 images of fish in 1000 categories
+  
+Zhuang, P., Wang, Y., & Qiao, Y. (2018). WildFish: A Large Benchmark for Fish Recognition in the Wild. In 2018 ACM Multimedia Conference on Multimedia Conference (pp. 1301-1309). ACM
+
+* Data downloadable via  from Github (<a href="https://github.com/PeiqinZhuang/WildFish">download link</a>)
+* Metadata raw format:  N/A
+* Categories/species:  N/A
+* Vehicle type:  N/A
+* Image information: 54459 nan images
+* Annotation information:  nan
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="https://github.com/PeiqinZhuang/WildFish/raw/master/paper/WildFish_cover.jpg" width=700>
+  
+  
+### Object detection of tropical freshwater fish in Australia
+
+~44k images of fish w/ ~83kbounding boxes
+  
+Jansen, A., Walden, D., Walker, S., & Buccella, C. (2022). A deep learning dataset for underwater object detection of tropical freshwater fish species in northern Australia (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7250921
+
+* Data downloadable via  from zenodo (<a href="https://zenodo.org/records/7250921#.ZEAmZezMJqs">download link</a>)
+* License: CC BY 4.0 LEGAL CODE
+* Metadata raw format: json
+* Categories/species: Ambassis agrammus
+Ambassis macleayi
+Amniataba percoides
+Craterocephalus stercusmuscarum
+Denariusa bandata
+Glossamia aprion
+Glossogobius spp.
+Hephaestus fuliginosus
+Lates calcarifer
+Leiopotherapon unicolor
+Liza ordensis
+Megalops cyprinoides
+Melanotaenia nigrans
+Melanotaenia splendida inornata
+Mogurnda mogurnda
+Nemetalosa erebi
+Neoarius spp.
+Neosilurus spp.
+Oxyeleotris spp.
+Scleropages jardinii
+Strongylura kreffti
+Syncomistes butleri
+Toxotes chatareus
+* Vehicle type: RUV
+* Image information: 44112 nan images (images were derived from Remote Underwater Video (RUV) deployments in deep channel and shallow lowland billabongs, Kakadu National Park, Northern Territory Australia)
+* Annotation information: 82904  Bounding Box
+* Typical animal size in pixels: 1920x1080
+  
+  
+<img src="http://lila.science/wp-content/uploads/2017/03/kakadu_fish_150.jpg" width=700>
+  
+  
+### AFFiNe
+
+7k labeled images of freshwater fish, generally not in the water, cropped close
+  
+* Data downloadable via  from kaggle (<a href="https://www.kaggle.com/datasets/jorritvenema/affine">download link</a>)
+* License: CC BY-NC-SA 4.0 DEED
+* Metadata raw format: YOLO
+* Categories/species:  N/A
+* Vehicle type:  N/A
+* Image information: Above 7000 nan images
+* Annotation information:  nan
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="http://lila.science/wp-content/uploads/2017/03/affine-150.jpg" width=700>
+  
+  
+### Brook trout imagery for individual ID
+
+435 images of brook trout with individual ID labels
+
+
+  
+Hitt, N.P., Kessler, K.G., and Letcher, B.H., 2022, Brook trout imagery data for individual recognition with deep learning: U.S. Geological Survey data release, https://doi.org/10.5066/P94UL1Z1.
+
+* Data downloadable via via browser from Science base (<a href="https://www.sciencebase.gov/catalog/item/627e8af0d34e3bef0c9a2cde">download link</a>)
+* Metadata raw format: xml
+* Categories/species:  N/A
+* Vehicle type: Go Pro camera mounted approximately 50 cm above a fish board
+* Image information: 435 nan images (images were collected at the Paint Bank State Fish Hatchery (Paint Bank, VA) on August 9, 2021 using a GoPro Hero 9 camera mounted approximately 50 cm above a fish board. )
+* Annotation information:  nan
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="http://lila.science/wp-content/uploads/2017/03/brook-trout-150.jpg" width=700>
+  
+  
+### AAU Zebrafish Re-Identification Dataset
+
+2200 images of zebrafish with individual IDs
+  
+@InProceedings{Haurum_2020_WACV_Workshops,
+    author = {Haurum, Joakim Bruslund and Karpova, Anastasija and Pedersen, Malte and Bengtson, Stefan Hein and Moeslund, Thomas B.},
+    booktitle = {The IEEE Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    title = {Re-Identification of Zebrafish using Metric Learning},
+    month = {March},
+    year = {2020}
+}
+
+
+* Data downloadable via via browser from kaggle (<a href="https://www.kaggle.com/datasets/aalborguniversity/aau-zebrafish-reid">download link</a>)
+* License: CC BY 4.0 DEED
+* Metadata raw format: csv
+* Categories/species: Zebrafish
+* Vehicle type: Underwater Camera in fish tank
+* Image information: 2224 nan images
+* Annotation information:   AAU VAP Bounding Box
+* Typical animal size in pixels: 2056 × 1542
+  
+  
+<img src="http://lila.science/wp-content/uploads/2017/03/zebrafish-150.png" width=700>
+  
+  
+### 3D-ZeF20
+
+Eight long stereo video sequences of zebrafish with boxes and keypoints
+  
+pedersen20203dzef, 3D-ZeF: A 3D Zebrafish Tracking Benchmark Dataset, Pedersen, Malte and Haurum, Joakim and Bengtson, Stefan and Moeslund, Thomas, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 250--259, 2020
+
+* Data downloadable via via browser from MOTchallenge (<a href="https://motchallenge.net/data/3D-ZeF20">download link</a>)
+* License: CC BY-NC-SA 3.0 DEED
+* Metadata raw format: json
+* Categories/species: Zebrafish
+* Vehicle type: multi-object tracking (MOT) and 3d tracking
+* Image information: 8 RGB images
+* Annotation information: 86400  Bounding box and head points
+* Typical animal size in pixels: 2704x1520
+  
+  
+<img src="https://motchallenge.net/img/thumbnails/ZebraFish-08.jpg" width=700>
+  
+  
+### Salmon Computer Vision
+
+Boxes on 532,000 frames from 1,567 videos of salmon in two weirs
+  
+JOUR, Atlas, William, Ma, Sami, Chou, Yi, Connors, Katrina, Scurfield, Daniel, Nam, Brandon, Ma, Xiaoqiang, Cleveland, Mark, Doire, Janvier, Moore, Jonathan, Shea, Ryan, Liu, Jiangchuan, 2023/09/20, Wild salmon enumeration and monitoring using deep learning empowered detection and tracking, 10, 10.3389/fmars.2023.1200408, Frontiers in Marine Science
+
+
+* Data downloadable via via browser from Github (<a href="https://github.com/Salmon-Computer-Vision/salmon-computer-vision">download link</a>)
+* License: CC BY 4.0 
+* Metadata raw format: YOLOv6
+* Categories/species: Pacific salmon
+* Vehicle type: multi-object tracking (MOT) and object detection
+* Image information: 1567 nan images
+* Annotation information:  Bounding box
+* Typical animal size in pixels:  N/A
+  
+  
+<img src="https://www.frontiersin.org/files/Articles/1200408/fmars-10-1200408-HTML/image_m/fmars-10-1200408-g005.jpg" width=700>
+  
+
+### NOAA Puget Sound Nearshore Fish 2017-2018
+
+Images with 67990 bounding boxes on fish and crustaceans
+  
+Farrell DM, Ferriss B, Sanderson B, Veggerby K, Robinson L, Trivedi A, Pathak S, Muppalla S, Wang J, Morris D, Dodhia R. A labeled data set of underwater images of fish and crab species from five mesohabitats in Puget Sound WA USA. Scientific Data. 2023 Nov 13;10(1):799.
+
+* Data downloadable via via https from LILA (<a href="http://lila.science/wp-content/uploads/2022/07/noaa-estuary-thumb-800.png">download link</a>)
+* License: CDLA-permissive 1.0
+* Metadata raw format: COCO
+* Categories/species: fish and crustaceans
+* Vehicle type:  N/A
+* Image information: 77,739 nan images
+* Annotation information: 67990  Bounding Box
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_noaa_puget_sound">visualise_noaa_puget_sound</a>
+  
+  
+<img src="http://lila.science/wp-content/uploads/2022/07/noaa-estuary-thumb-800.png" width=700>
