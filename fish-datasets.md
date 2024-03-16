@@ -37,10 +37,9 @@ Farrell DM, Ferriss B, Sanderson B, Veggerby K, Robinson L, Trivedi A, Pathak S,
 * Image information: 77,739 nan images
 * Annotation information: 67990  Bounding Box
 * Typical animal size in pixels:  N/A
-* Code to render sample annotated image: <a href="./data_preview/visualise_noaa_puget_sound">visualise_noaa_puget_sound</a>
   
   
-<img src="./data_preview/noaa_puget_sound_sample_image.png" width=700>
+<img src="http://lila.science/wp-content/uploads/2022/07/noaa-estuary-thumb-800.png" width=700>
   
   
 ### Project Natick Underwater Video
