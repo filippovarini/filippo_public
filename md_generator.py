@@ -2,6 +2,33 @@
 import pandas as pd
 import humanfriendly
 
+header_text = """
+# Datasets with annotated fish in marine/freshwater imagery/video
+
+## TOC
+
+* <a href="#overview">Overview</a>
+* <a href="#publicly-available-datasets">Publicly available datasets</a>
+
+## Overview
+
+This is a list of datasets with annotated marine/freshwater imagery, suitable for training fish detectors/classifiers. 
+
+It was ideated by [Dan Morris](https://dmorris.net) to emulate the [list of datasets with annotated wildlife in drone/aerial images](https://github.com/agentmorris/agentmorrispublic/blob/main/drone-datasets.md), with standardized metadata for each dataset, and consistent sample code for match annotations to images and rendering sample images.
+
+
+This list was curated by the following folks:
+* <a href="https://www.linkedin.com/in/filippo-varini/">Filippo Varini</a>
+* <a href="https://dmorris.net">Dan Morris</a>
+
+
+
+Email <a href="mailto:fppvrn@gmail.com">Filippo</a> if anything seems off, or if you know of datasets we're missing.
+
+
+## Publicly available datasets
+"""
+
 
 #%%
 input_file = './downloads/fish_datasets.csv'
@@ -93,6 +120,7 @@ for i_row,row in df.iterrows():
     output_lines.append(s)
 
 with open(output_file,'w') as f:
+    f.write(header_text)
     for s in output_lines:
         f.write(s)
         

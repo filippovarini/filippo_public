@@ -1,3 +1,48 @@
+
+# Datasets with annotated fish in marine/freshwater imagery/video
+
+## TOC
+
+* <a href="#overview">Overview</a>
+* <a href="#publicly-available-datasets">Publicly available datasets</a>
+
+## Overview
+
+This is a list of datasets with annotated marine/freshwater imagery, suitable for training fish detectors/classifiers. 
+
+It was ideated by [Dan Morris](https://dmorris.net) to emulate the [list of datasets with annotated wildlife in drone/aerial images](https://github.com/agentmorris/agentmorrispublic/blob/main/drone-datasets.md), with standardized metadata for each dataset, and consistent sample code for match annotations to images and rendering sample images.
+
+
+This list was curated by the following folks:
+* <a href="https://www.linkedin.com/in/filippo-varini/">Filippo Varini</a>
+* <a href="https://dmorris.net">Dan Morris</a>
+
+
+
+Email <a href="mailto:fppvrn@gmail.com">Filippo</a> if anything seems off, or if you know of datasets we're missing.
+
+
+## Publicly available datasets
+### NOAA Puget Sound Nearshore Fish 2017-2018
+
+Images with 67990 bounding boxes on fish and crustaceans
+  
+Farrell DM, Ferriss B, Sanderson B, Veggerby K, Robinson L, Trivedi A, Pathak S, Muppalla S, Wang J, Morris D, Dodhia R. A labeled data set of underwater images of fish and crab species from five mesohabitats in Puget Sound WA USA. Scientific Data. 2023 Nov 13;10(1):799.
+
+* Data downloadable via via https from LILA (<a href="http://lila.science/wp-content/uploads/2022/07/noaa-estuary-thumb-800.png">download link</a>)
+* License: CDLA-permissive 1.0
+* Metadata raw format: COCO
+* Categories/species: fish and crustaceans
+* Vehicle type:  N/A
+* Image information: 77,739 nan images
+* Annotation information: 67990  Bounding Box
+* Typical animal size in pixels:  N/A
+* Code to render sample annotated image: <a href="./data_preview/visualise_noaa_puget_sound">visualise_noaa_puget_sound</a>
+  
+  
+<img src="./data_preview/noaa_puget_sound_sample_image.png" width=700>
+  
+  
 ### Project Natick Underwater Video
 
 ~1k images of fish/squid w/bounding boxes
@@ -446,22 +491,4 @@ JOUR, Atlas, William, Ma, Sami, Chou, Yi, Connors, Katrina, Scurfield, Daniel, N
   
 <img src="https://www.frontiersin.org/files/Articles/1200408/fmars-10-1200408-HTML/image_m/fmars-10-1200408-g005.jpg" width=700>
   
-
-### NOAA Puget Sound Nearshore Fish 2017-2018
-
-Images with 67990 bounding boxes on fish and crustaceans
   
-Farrell DM, Ferriss B, Sanderson B, Veggerby K, Robinson L, Trivedi A, Pathak S, Muppalla S, Wang J, Morris D, Dodhia R. A labeled data set of underwater images of fish and crab species from five mesohabitats in Puget Sound WA USA. Scientific Data. 2023 Nov 13;10(1):799.
-
-* Data downloadable via via https from LILA (<a href="http://lila.science/wp-content/uploads/2022/07/noaa-estuary-thumb-800.png">download link</a>)
-* License: CDLA-permissive 1.0
-* Metadata raw format: COCO
-* Categories/species: fish and crustaceans
-* Vehicle type:  N/A
-* Image information: 77,739 nan images
-* Annotation information: 67990  Bounding Box
-* Typical animal size in pixels:  N/A
-* Code to render sample annotated image: <a href="./data_preview/visualise_noaa_puget_sound">visualise_noaa_puget_sound</a>
-  
-  
-<img src="http://lila.science/wp-content/uploads/2022/07/noaa-estuary-thumb-800.png" width=700>
