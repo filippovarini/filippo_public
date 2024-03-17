@@ -102,7 +102,7 @@ for i_row,row in df.iterrows():
     
     image_url = row['Image URL']
     if isinstance(row['Shortname'],str):
-        code_url = f'./data_preview/visualise_{row["Shortname"]}'
+        code_url = f'./data_preview/visualise_{row["Shortname"]}.ipynb'
         code_link_name = code_url.split('/')[-1]
         image_url = f'./data_preview/{row["Shortname"]}_sample_image.png'
         
