@@ -14,7 +14,7 @@ It was ideated by [Dan Morris](https://dmorris.net) to emulate the [list of data
 
 
 This list was curated by the following folks:
-* <a href="https://www.linkedin.com/in/filippo-varini/">Filippo Varini</a>
+* <a href="https://fvarini.vercel.app/">Filippo Varini</a>
 * <a href="https://dmorris.net">Dan Morris</a>
 
 
